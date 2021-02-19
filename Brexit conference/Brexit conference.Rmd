@@ -1,0 +1,237 @@
+---
+title: Call for Papers <br>
+       Post BREXIT  Uncertainty, Risk Measurement and COVID-$19$ Challenges <br> 
+       25 & 26 May 2021 <br> 
+   
+       
+column_numbers: 3
+logoright_name: https&#58;//raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/brexit.png
+
+logoleft_name: https&#58;//raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/covid_19.png
+
+
+
+output: 
+  posterdown::posterdown_html:
+    self_contained: false
+bibliography: packages.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, include = F}
+defOut <- knitr::knit_hooks$get("plot")  # save the default plot hook 
+knitr::knit_hooks$set(plot = function(x, options) {  # set new plot hook ...
+  x <- defOut(x, options)  # first apply the default hook
+  if(!is.null(options$wrapfigure)) {  # then, if option wrapfigure is given ...
+    # create the new opening string for the wrapfigure environment ...
+    wf <- sprintf("\\begin{wrapfigure}{%s}{%g\\textwidth}", options$wrapfigure[[1]], options$wrapfigure[[2]])
+    x  <- gsub("\\begin{figure}", wf, x, fixed = T)  # and replace the default one with it.
+    x  <- gsub("{figure}", "{wrapfigure}", x, fixed = T)  # also replace the environment ending
+  }
+  return(x)
+})
+```
+
+# Introduction
+
+The UK faces the simultaneous challenges of Brexit and Covid-19. Either would stretch any nation’s economy to the limit and Covid has arguably hit the UK’s economy harder than its EU neighbours’. The uncertainties surrounding these twin challenges and basic nature of any initial deal with the UK’s most important trade partner, will weigh on the country’s economy in the months and years ahead. 
+
+# Objectives
+1. This call is devoted to the advancement of the understanding of the entire spectrum of policy and control issues and their interactions to economic phenomena following exit from the Covid-19 crisis and from the European Union. The uncertainty over the nature of final agreements on trade will tend to lead to firms delaying investment and it’s very hard for regions to regain their internationally competitive advantage, once lost, as a result of the scarring from these events.   
+2. This conference will bring together researchers from different research communities for an interdisciplinary stocktaking of the state of the art of research on the consequences of Brexit - and on the implications of the British withdrawal from the EU and devastating consequences on European integration. 
+3. The organisers invite submissions from scholars working on policy and practical issues and from those having a more theoretical or normative angle. Two special issues of high quality journals will serve as a legacy to record the unprecedented events that we are facing in the field of Finance; the *European Journal of Finance and Economic Modelling* have contributed special issues and welcome your submissions.
+
+# Paper submissions  
+<font size="38">Conference submission deadline: $\color{red}{\text{25th April 2021}}$</font>  <br>
+Submission Email:SOC-c-postbrexitfin@adf.bham.ac.uk  <br>
+Enquiries:  postbrexitfinance@contacts.bham.ac.uk  <br>
+Note: Please name the manuscript as “Last Name_First Name” of the submitting author. 
+
+------------------------------------------------------
+<font size="35">$\color{blue}{\textit{Important dates}}$  <br>
+Authors notification date: 3 May 2021  <br>
+Conference Dates: 25 & 26 May 2021 <br> 
+Submission deadline for revised papers: 31 August 2021 <br> 
+Special issues R&R submission deadline: 30 September 2021 <br>
+Notification of acceptance: 30 November 2021 <br>
+Publication date in 2022 <br>
+<font size="35">$\color{blue}{\textit{Special Issues Guest Editors}}$  <br>
+Professor Jane M. Binner, Chair of Finance, University of Birmingham, Birmingham, UK email: j.m.binner@bham.ac.uk <br>
+Professor Costas Milas, Professor of Finance, University of Liverpool, Liverpool, UK email: Costas.Milas@liverpool.ac.uk <br>
+Dr Rakesh Bissoondeeal, Senior Lecturer in Finance, Aston University, Birmingham, UK email: R.Bissoondeeal@aston.ac.uk <br>
+Professor Adrian Fleissig, Professor of Economics, California State University Fullerton, California, email: a.fleissig@fullerton.edu 
+
+# Research Areas
+
+
+<style>
+  .col2 {
+    columns: 2 250px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 250px; /* chrome, safari */
+    -moz-columns: 2 250px;    /* firefox */
+  }
+</style>
+\justifying
+<div class="col2">
+
+• High frequency trading  <br>
+• Investment and trade policy <br>
+• Illiquidity and risk   <br>
+• Coronavirus and financial crisis <br>
+• Illiquidity premia and returns <br>
+• Wider tick sizes and liquidity <br>
+• Liquidity and price discovery <br>
+•	Investment and trade policy <br>
+
+</div>
+
+•	Money markets and monetary policy <br>
+•	Macroeconomic prudential policy and financial stability <br>
+•	Interest rate announcements and trading impact <br>
+•	Information asymmetry, market participation and asset prices <br>
+•	Asset markets, liquidity and macroeconomic policy <br>
+•	Regulation and financial innovation <br>
+•	Regional economic investment and industrial strategy, e.g. retail and car industries <br>
+•	Costs and welfare effects of trade and free trade <br>
+•	Effect of measurement error and market structure <br>
+•	Index numbers and stock market volatility <br>
+•	Dynamic systems, random states of disorder and chaos theory <br>
+•	Order-book modelling and market making strategies <br>
+•	Theoretical and empirical analysis of trading activity <br>
+•	Volatility modelling, market impact and transactions costs  <br>
+•	Business confidence, uncertainty and working capital costs and financial management <br>
+•	Bankruptcy and liquidity measurement <br>
+•	Pricing of tail risk and the equity premium <br>
+•	Price dispersion, market fragmentation and liquidity <br>
+
+
+# Keynote Speakers
+
+*Professor David Aikman: King’s Business School,King College*
+
+<div style= "float:right; position: relative ; top: 0px; ">
+```{r, echo=FALSE, out.width = "300px",out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/David.png")
+```
+</div>
+
+Before joining King’s Business School in April 2020 as Professor of Finance and Director of the Qatar Centre for Global Banking and Finance,David worked as an economist at the Bank of England.David was seconded to the Board of Governors of the Federal Reserve System in Washington DC, where he worked as an advisor in the Division of Financial Stability. He also worked as visiting scholar at the Bank of Japan’s Institute for Monetary and Economic Studies and represented the Bank in various international fora, including meetings of the Financial Stability Board, the Basel Committee, and the European Systemic Risk Board.
+
+------------------------------------------------------
+<br>
+<br>
+
+
+*Oswald Distinguished Professor William A. Barnett: University of Kansas*
+
+<div style= "float:right; position: relative;top: 0px; ">
+```{r, echo=FALSE, out.width = "300px",out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/William.jpg")
+```
+</div>
+
+William Arnold Barnett is the Oswald Distinguished Professor of Macroeconomics at the University of Kansas, Director of Advances in Monetary and Financial Measurement at the Center for Financial Stability (CFS) and Director of the Institute for Nonlinear Dynamical Inference in Moscow.He is a Fellow of the American Statistical Association, a Charter Fellow of the Journal of Econometrics, a Charter Fellow of the Society for Economic Measurement, a Fellow of the World Innovation Foundation, a Fellow of the TANDO international policy institute, a Fellow of the Johns Hopkins Institute for Applied Economics, Global Health, and the Study of Business Enterprise, and Honorary Professor at Henan University, China. He is ranked among the top 2\% of the world's economists in RePEc.
+
+------------------------------------------------------
+
+*Professor Patrick Minford: Cardiff University*
+
+<div style= "float:right; position: relative;top: 0px; ">
+```{r, echo=FALSE,out.width = "500px", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/Minford.jpg")
+```
+</div>
+
+
+
+Patrick Minford is Professor of Applied Macroeconomics at Cardiff University and Research Fellow at the Centre for Economic Policy research (CEPR). He was formerly Edward Gonner Professor of Economics at the University of Liverpool and Hallsworth Fellow at Manchester University.Prior to following an academic career, he had professional positions at Ministry of Overseas Development HMG, Ministry of Finance Malawi, Courtaulds, HM Treasury, and National Institute of Economic & Social Research (NIESR, London) as Editor of the NIESR Review. He was appointed a member of Monopolies & Mergers Commission, a member of HMT Panel of Independent Economic Forecasters. He is a serving, and founder member of the Institute of Economic Affairs Shadow Monetary Policy Committee. In 2016, Minford was a founder-member and co-chair of the Economists for Brexit group, which advocated the UK leaving the European Union.
+
+
+------------------------------------------------------
+
+*Professor Jagjit S. Chadha: Director National Institute for Economic and Social Science Research*
+
+<div style= "float:right; position: relative ;top: 0px; ">
+```{r, echo=FALSE, out.width = "500px",out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/Chadha.jpg")
+```
+</div>
+
+Jagjit Chadha is an expert on financial markets and monetary policy, as well as aspects of monetary and financial history. He has written widely on the design of monetary, fiscal and financial policies.Professor Chadha currently serves as Director of the National Institute of Economic and Social Research (NIESR). Previously he was Professor of Economics at the University of Kent, Cambridge University, University of St Andrews and Fellow at Clare College, Cambridge. He has worked at the Bank of England on Monetary Policy and as Chief Quantitative Economist at BNP Paribas, and has served as Chair of the Money, Macro, Finance Study Group. He has acted as Specialist Adviser to the House of Commons Treasury Committee and academic adviser to both the Bank of England, HM Treasury and many central banks as well as the Bank for International Settlements. In the City of London, he was the Mercers’ Memorial Professor of Commerce at Gresham College.
+
+Twitter:[\@jagjit_chadha](https://twitter.com/jagjit_chadha)
+
+
+------------------------------------------------------
+
+
+*Professor Costas Milas: Liverpool Management School*
+
+<div style= "float:right; position: relative ;top: 10px; ">
+```{r, echo=FALSE,out.width = "300px", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/Milas.jpg")
+```
+</div>
+
+Costas Milas is Professor of Finance at the Management School, University of Liverpool. He researches on monetary policy behaviour and credit rating decisions in the UK, the US and Eurozone economies. The focus of his current work is on the trade-off between government intervention policies to control the Covid-19 pandemic and economic support measures. He has published more than 50 articles in refereed journals. His work has been quoted by The Financial Times, The Wall Street Journal, The Guardian, The Sunday Times and The Times  among others. He has written opinion pieces for Newsweek, The Conversation, and The London School of Economics British Politics and Policy blog.
+
+# Acknowledge
+
+<style>
+.column-left{
+  float: left;
+  width: 48%;
+  text-align: left;
+}
+
+.column-right{
+  float: right;
+  width: 48%;
+  text-align: right;
+}
+</style>
+
+
+<div class="column-left">
+```{r, echo=FALSE,out.width = "300px", out.extra='style="float:left; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/MMF.png")
+```
+</div>
+
+<div class="column-right">
+```{r, echo=FALSE,out.width = "300px", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/Elsevier.png")
+```  
+</div>
+
+
+
+
+<div class="column-left">
+```{r, echo=FALSE,out.width = "300px", out.extra='style="float:left; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/Liverpool.png")
+```  
+</div>
+
+<div class="column-right">
+```{r, echo=FALSE,out.width = "320px", out.extra='style="float:right; padding:10px"'}
+knitr::include_graphics("https://raw.githubusercontent.com/meng0822/Brexit_conference/main/Images/UoB.png")
+```
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
